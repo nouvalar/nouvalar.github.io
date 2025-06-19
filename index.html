@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Nouvall</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- <img src="{{ asset('assets/img/logo.png') }}" alt=""> -->
+                <h1 class="sitename">DevFolio</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home<br></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+            <img src="assets/img/fotosaya.jpeg" alt="" data-aos="fade-in">
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center"
+                data-aos="fade-up" data-aos-delay="100">
+                <h2>I am Mohamad Nouval Amrullah</h2>
+                <p><span class="typed" data-typed-items="Software, Hardware, Network"></span></p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="row justify-content-between gy-4">
+                            <div class="col-lg-5">
+                                <img src="assets/img/foto2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-lg-7 about-info">
+                                <p><strong>Name: </strong> <span>Mohamad Nouval Amrullah</span></p>
+                                <p><strong>Profile: </strong> <span>full stack developer</span></p>
+                                <p><strong>Email: </strong> <span>nouvalamr12@gmail.com</span></p>
+                                <p><strong>Phone: </strong> <span>(+62) 8562-4570-168</span></p>
+                                <p><strong>Study: </strong> <span>Computer Engineering at Vocational School IPB
+                                        University</span></p>
+                            </div>
+                        </div>
+
+                        <div class="skills-content skills-animation">
+                            <h5>Skills</h5>
+                            <div class="progress">
+                                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill"><span>PHP</span> <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-me">
+                            <h4>About me</h4>
+                            <p>
+                                Computer Engineering Technology Student with a Passion for Innovation
+                                I am a sixth-semester Computer Engineering Technology student with a strong passion for
+                                technology,
+                                especially programming. My curiosity drives me to continuously learn, think creatively,
+                                and
+                                solve
+                                problems efficiently.
+                            </p>
+                            <p>
+                                With a keen interest in technology, I am motivated to explore new projects and
+                                challenges,
+                                enabling
+                                me to refine my skills and gain valuable experiences. I believe that a combination of
+                                curiosity, critical
+                                thinking, and creativity is the foundation for impactful innovation.
+                            </p>
+                            <p>
+                                I enjoy working on real-world projects — from full-stack web development to embedded
+                                systems
+                                — and thrive in environments that challenge my critical thinking and creativity. I
+                                believe
+                                that curiosity, adaptability, and innovation are key to making meaningful contributions
+                                in
+                                the tech world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Resume</h2>
+                <p>
+                    My educational background and professional experience,
+                    <a href="assets/pdf/CV_MohamadNouvalAmrullah.pdf" target="_blank" style="color: #007bff; text-decoration: underline;">
+                        Get my resume.
+                    </a>
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Summary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Mohamad Nouval Amrullah</h4>
+                            <p><em>Sixth-semester Computer Engineering Technology student at IPB University with a
+                                    passion
+                                    for programming, real-time systems, and innovation. Experienced in full-stack web
+                                    development, log monitoring systems, and microcontroller-based projects.</em></p>
+                            <ul>
+                                <li>Bandung, Indonesia</li>
+                                <li>(+62) 8562-4570-168</li>
+                                <li>nouvalamr12@gmail.com</li>
+                                <li><a href="https://github.com/nouvalar">github.com/nouvalar</a></li>
+                                <li><a href="https://linkedin.com/in/mohammad-nouval-977048242">LinkedIn Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Computer Engineering</h4>
+                            <h5>2022 - Present</h5>
+                            <p><em>Vocational School IPB University, Bogor, Indonesia</em></p>
+                            <p>GPA: 3.34 / 4.00. Relevant courses: Mobile Application, Web Programming, Network
+                                Application
+                                Administration, and Software Engineering.</p>
+                            <p>Currently in sixth semester, focusing on software development, hardware systems, and
+                                networking. Actively participating in various technology projects and competitions.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>High School Diploma</h4>
+                            <h5>2019 - 2022</h5>
+                            <p><em>SMK Negeri 12 Bandung, Bandung, Indonesia</em></p>
+                            <p>Graduated with focus on Hardware Engineering. Developed on Aircraft Engine Cable
+                                Troubleshooting identifying, analyzing, and resolving issues within the
+                                electrical wiring system of aircraft engines</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Freelance Full Stack Developer</h4>
+                            <h5>May 2025 - Jun 2025</h5>
+                            <p><em>Custom Sales & Invoicing System</em></p>
+                            <ul>
+                                <li>Developed system for product pricing, order, delivery, and invoicing using Laravel
+                                    and
+                                    PostgreSQL.</li>
+                                <li>Built ERD, implemented complex business logic, partial delivery, and PDF generation.
+                                </li>
+                                <li>Used Laravel Blade, JavaScript, and DomPDF in a fully functional deployed project.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Internship - Backend Developer</h4>
+                            <h5>Feb 2025 - May 2025</h5>
+                            <p><em>PT. Aero System Indonesia</em></p>
+                            <ul>
+                                <li>Developed a real-time monitoring system using ELK stack and Fluent-bit in Docker.
+                                </li>
+                                <li>Parsed and visualized Elasticsearch logs using Laravel 10.</li>
+                                <li>Integrated log data over URLs and displayed it in real-time.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Internship - Aircraft Cable Troubleshooting</h4>
+                            <h5>Jan 2022 - Mar 2022</h5>
+                            <p><em>Depohar 10 Sathar 15</em></p>
+                            <ul>
+                                <li>Identified and resolved cable issues in aircraft engine systems.</li>
+                                <li>Performed measurements and ensured compliance with aviation standards.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">App</li>
+                        <li data-filter=".filter-product">Product</li>
+                        <li data-filter=".filter-branding">Branding</li>
+                        <li data-filter=".filter-books">Books</li>
+                    </ul>
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App 1</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Add more portfolio items here with updated asset references -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Feel free to reach out for any collaboration or inquiries.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-5">
+                        <div class="col-lg-4">
+                            <div class="info-item d-flex align-items-center">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>Gg. Mitra 1 NO.65G </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="info-item d-flex align-items-center">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p>+62-8562-4570-168</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="info-item d-flex align-items-center">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p>nouvalamr12@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="title" placeholder="Subject" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                required></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer accent-background">
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Nouval</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights
+                        Reserved</span></p>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://github.com/nouvalar" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://wa.me/6285624570168" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.instagram.com/nouvalarh0/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-nouval-977048242/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
